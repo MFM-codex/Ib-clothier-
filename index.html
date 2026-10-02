@@ -3,88 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IB CLOTHEIR | Custom Tailoring</title>
-    <meta name="description" content="Custom suits, bridal and formal wear, alterations and repairs, cut to your measurements.">
+    <title>IB CLOTHEIR | Custom Tailoring &amp; Fashion</title>
+    <meta name="description" content="Custom suits, bridal and formal wear, corporate attire, alterations and repairs, cut to your measurements.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="logo" viewBox="0 0 48 48">
+            <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff2e88"/><stop offset="1" stop-color="#ff9f1c"/></linearGradient></defs>
+            <rect width="48" height="48" rx="14" fill="url(#lg)"/>
+            <text x="24" y="30" text-anchor="middle" font-family="Bricolage Grotesque, Arial, sans-serif" font-weight="800" font-size="22" fill="#fff">IB</text>
+            <path d="M8 39C18 30 30 44 41 34" stroke="#fff" stroke-width="2" fill="none" stroke-dasharray="3 3" stroke-linecap="round"/>
+        </symbol>
+    </svg>
+
     <header class="site-header">
         <div class="wrap bar">
-            <a class="logo" href="#top">IB CLOTHEIR</a>
+            <a class="brand" href="#top" aria-label="IB CLOTHEIR home">
+                <svg class="mark" aria-hidden="true"><use href="#logo"/></svg>
+                <span>IB CLOTHEIR<small>Tailoring &amp; Fashion</small></span>
+            </a>
             <nav aria-label="Main">
                 <a href="#services">Services</a>
                 <a href="#about">About</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#testimonials">Reviews</a>
-                <a class="nav-cta" href="#contact">Contact</a>
+                <a class="pill" href="#contact">Book a fitting</a>
             </nav>
         </div>
     </header>
 
     <main id="top">
         <section class="hero">
-            <div class="wrap">
-                <h1>Clothes cut to your measurements.</h1>
-                <p class="lead">Suits, dresses, bridal and corporate wear, made by hand and fitted until they sit right on you.</p>
-                <div class="actions">
-                    <a class="btn btn-primary" href="https://wa.me/2348028415621">Book on WhatsApp</a>
-                    <a class="btn btn-ghost" href="#services">See services</a>
+            <span class="blob b1" aria-hidden="true"></span>
+            <span class="blob b2" aria-hidden="true"></span>
+            <span class="blob b3" aria-hidden="true"></span>
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <p class="badge">Premium tailoring, made for you</p>
+                    <h1>Fashion that fits you perfectly.</h1>
+                    <p class="lead">Suits, dresses, bridal and corporate wear. Cut to your measurements, finished by hand, adjusted until it sits right.</p>
+                    <div class="actions">
+                        <a class="btn btn-hot" href="https://wa.me/2348028415621">Book on WhatsApp</a>
+                        <a class="btn btn-glass" href="#services">Explore services</a>
+                    </div>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <div class="swatch s1"></div>
+                    <div class="swatch s2"></div>
+                    <div class="swatch s3"></div>
+                    <svg class="mark big"><use href="#logo"/></svg>
                 </div>
             </div>
-            <div class="tape" aria-hidden="true"></div>
         </section>
 
+        <div class="marquee" aria-hidden="true">
+            <div class="track">
+                <span>Custom tailoring</span><span>Alterations</span><span>Repairs</span><span>Bridal wear</span><span>Corporate attire</span><span>Consultations</span>
+                <span>Custom tailoring</span><span>Alterations</span><span>Repairs</span><span>Bridal wear</span><span>Corporate attire</span><span>Consultations</span>
+            </div>
+        </div>
+
         <section id="services" class="block">
-            <div class="wrap split">
-                <h2>What we make and mend</h2>
-                <ul class="rows">
-                    <li><h3>Custom tailoring</h3><p>Tailor-made suits and dresses that fit you perfectly.</p></li>
-                    <li><h3>Alterations</h3><p>Expert alterations to make your clothes fit like new.</p></li>
-                    <li><h3>Repairs</h3><p>High-quality repairs that extend the life of your garments.</p></li>
-                    <li><h3>Bridal and formal wear</h3><p>Bridal gowns and formal attire for every occasion.</p></li>
-                    <li><h3>Corporate attire</h3><p>Custom uniforms tailored to your business image.</p></li>
-                    <li><h3>Personal consultations</h3><p>One-on-one sessions to talk through your style.</p></li>
-                </ul>
+            <div class="wrap">
+                <h2 class="title">What we make and mend</h2>
+                <div class="cards">
+                    <article class="card c1"><span class="ico" aria-hidden="true">✂️</span><h3>Custom tailoring</h3><p>Tailor-made suits and dresses that fit you perfectly.</p></article>
+                    <article class="card c2"><span class="ico" aria-hidden="true">🪡</span><h3>Alterations</h3><p>Expert alterations to make your clothes fit like new.</p></article>
+                    <article class="card c3"><span class="ico" aria-hidden="true">🧵</span><h3>Repairs</h3><p>High-quality repairs that extend the life of your garments.</p></article>
+                    <article class="card c4"><span class="ico" aria-hidden="true">👰</span><h3>Bridal and formal wear</h3><p>Bridal gowns and formal attire for every occasion.</p></article>
+                    <article class="card c5"><span class="ico" aria-hidden="true">👔</span><h3>Corporate attire</h3><p>Custom uniforms tailored to your business image.</p></article>
+                    <article class="card c6"><span class="ico" aria-hidden="true">📏</span><h3>Personal consultations</h3><p>One-on-one sessions to talk through your style.</p></article>
+                </div>
             </div>
         </section>
 
-        <section id="about" class="block alt">
-            <div class="wrap split">
-                <h2>About us</h2>
+        <section id="about" class="block about">
+            <div class="wrap about-grid">
+                <h2 class="title">Craft first. Style always.</h2>
                 <div class="prose">
                     <p>At IB CLOTHEIR, we combine craftsmanship with creativity to tailor clothing that fits your style and personality.</p>
-                    <p>Our tailors have years of experience and a passion for fashion. Every piece is measured, cut and finished with precision and care.</p>
+                    <p>Our tailors bring years of experience and a real passion for fashion. Every piece is measured, cut and finished with precision and care.</p>
                 </div>
             </div>
         </section>
 
         <section id="gallery" class="block">
             <div class="wrap">
-                <h2>Recent work</h2>
+                <h2 class="title">Recent work</h2>
                 <div class="gallery">
-                    <figure><img src="images/image1.jpg" alt="Tailored suit" loading="lazy"></figure>
-                    <figure><img src="images/image2.jpg" alt="Bridal gown" loading="lazy"></figure>
-                    <figure><img src="images/image3.jpg" alt="Custom shirt" loading="lazy"></figure>
-                    <figure><img src="images/image4.jpg" alt="Alterations" loading="lazy"></figure>
+                    <figure class="g1"><img src="images/image1.jpg" alt="Tailored suit" loading="lazy"><figcaption>Tailored suit</figcaption></figure>
+                    <figure class="g2"><img src="images/image2.jpg" alt="Bridal gown" loading="lazy"><figcaption>Bridal gown</figcaption></figure>
+                    <figure class="g3"><img src="images/image3.jpg" alt="Custom shirt" loading="lazy"><figcaption>Custom shirt</figcaption></figure>
+                    <figure class="g4"><img src="images/image4.jpg" alt="Alterations" loading="lazy"><figcaption>Alterations</figcaption></figure>
                 </div>
             </div>
         </section>
 
-        <section id="testimonials" class="block alt">
+        <section id="testimonials" class="block reviews">
             <div class="wrap">
-                <h2>What clients say</h2>
+                <h2 class="title light">What clients say</h2>
                 <div class="quotes">
-                    <blockquote>
-                        <p>IB CLOTHEIR provided me with the best fitting suit I've ever owned.</p>
-                        <footer>John D.</footer>
-                    </blockquote>
-                    <blockquote>
-                        <p>I loved my wedding gown. Thank you for making my day special.</p>
-                        <footer>Sarah P.</footer>
-                    </blockquote>
+                    <blockquote><p>IB CLOTHEIR provided me with the best fitting suit I've ever owned.</p><footer>John D.</footer></blockquote>
+                    <blockquote><p>I loved my wedding gown. Thank you for making my day special.</p><footer>Sarah P.</footer></blockquote>
                 </div>
             </div>
         </section>
@@ -92,15 +117,19 @@
 
     <footer id="contact" class="site-footer">
         <div class="wrap">
-            <h2>Ready for a fitting?</h2>
-            <p class="lead">Message us on WhatsApp with what you need and we will book a time.</p>
-            <a class="btn btn-primary" href="https://wa.me/2348028415621">Chat on WhatsApp: 08028415621</a>
-            <dl>
-                <div><dt>Email</dt><dd><a href="mailto:info@ibclotheir.com">info@ibclotheir.com</a></dd></div>
-                <div><dt>Location</dt><dd>123 Tailor St, Fashion City</dd></div>
-            </dl>
+            <div class="cta">
+                <h2>Ready for a fitting?</h2>
+                <p>Message us on WhatsApp with what you need and we will book a time.</p>
+                <a class="btn btn-dark" href="https://wa.me/2348028415621">Chat on WhatsApp: 08028415621</a>
+            </div>
+            <div class="foot-row">
+                <a class="brand" href="#top"><svg class="mark" aria-hidden="true"><use href="#logo"/></svg><span>IB CLOTHEIR<small>Tailoring &amp; Fashion</small></span></a>
+                <p><a href="mailto:info@ibclotheir.com">info@ibclotheir.com</a><br>123 Tailor St, Fashion City</p>
+            </div>
             <p class="legal">&copy; 2026 IB CLOTHEIR. All rights reserved.</p>
         </div>
     </footer>
+
+    <a class="wa-float" href="https://wa.me/2348028415621" aria-label="Chat on WhatsApp">Chat</a>
 </body>
 </html>
