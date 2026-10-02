@@ -26,10 +26,4 @@
     lb.addEventListener('click', function () { lb.hidden = true; });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') lb.hidden = true; });
 
-    document.getElementById('book-form').addEventListener('submit', function (e) {
-        e.preventDefault();
-        var f = e.target, d = f.date.value ? ' on ' + f.date.value : '';
-        var msg = 'Hello IB CLOTHEIR, my name is ' + f.name.value + '. I need: ' + f.service.value + d + '.' + (f.notes.value ? ' Details: ' + f.notes.value : '');
-        window.open('https://wa.me/2348028415621?text=' + encodeURIComponent(msg), '_blank', 'noopener');
-    });
 })();
