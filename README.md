@@ -1,13 +1,12 @@
 # IB CLOTHEIR
 
-Static website for IB CLOTHEIR, a premium tailoring business.
+Static website for IB CLOTHEIR, a tailoring business.
 
-## Structure
-
-- `index.html` – the page
+## Files
+- `index.html` – page content
 - `styles.css` – styling
-- `images/` – put `image1.jpg` to `image4.jpg` here (gallery)
+- `script.js` – mobile menu, gallery lightbox, WhatsApp booking form
+- `images/` – add `image1.jpg` to `image4.jpg` for the gallery
 
 ## Run locally
-
 Open `index.html` in a browser.
